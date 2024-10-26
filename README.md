@@ -1,0 +1,1 @@
+docker run -d --name explicit --privileged=true -e MYSQL_ROOT_PASSWORD="admin" -e MYSQL_USER="thomas" -e MYSQL_PASSWORD="12345678" -e MYSQL_DATABASE="explicit" -p 3309:3306 mysql:latest --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
